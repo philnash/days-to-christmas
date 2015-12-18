@@ -1,0 +1,14 @@
+{
+  "name": "days-to-christmas",
+  "version": "1.0.0",
+  "description": "A countdown to Christmas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Phil Nash <philnash@twilio.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
