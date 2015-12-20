@@ -9,6 +9,7 @@
   "author": "Phil Nash <philnash@twilio.com>",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.6.0",
     "express": "^4.13.3"
   }
 }
