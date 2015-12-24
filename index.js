@@ -8,13 +8,19 @@ const app = express();
 
 app.use(compression());
 
-app.use(express.static(path.join(__dirname, 'public'), { maxAge: 86400000 }));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res, next) {
   res.sendFile('index.html', {
     root: __dirname + '/views/'
   });
 });
+
+app.get('/advert', function(req, res, next) {
+  setTimeout(function(){
+    res.send('');
+  }, 5000);
+})
 
 const server = app.listen(process.env.PORT || 3000, function () {
   var host = server.address().address;
