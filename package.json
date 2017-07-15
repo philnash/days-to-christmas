@@ -2,6 +2,7 @@
   "name": "days-to-christmas",
   "version": "1.0.0",
   "description": "A countdown to Christmas",
+  "engines" : { "node" : "8.1.4" },
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
